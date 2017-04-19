@@ -304,6 +304,7 @@
 				5E8206421EA60FF50029202E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

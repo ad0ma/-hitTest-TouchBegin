@@ -19,7 +19,7 @@
 
 - (UIView *)__adHitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
-    if (!CGRectContainsPoint(self.bounds, point)) {
+    if (![self pointInside:point withEvent:event]) {
         return nil;
     }
     
@@ -37,9 +37,9 @@
     
     if (self.subviews.count) {
         
-        for (int i = 0; i < self.subviews.count; i++) {
-            
-            UIView *sub = self.subviews[i];
+        for (NSUInteger i = self.subviews.count; i > 0; i--) {
+        
+            UIView *sub = self.subviews[i-1];
             
             CGPoint p = [self convertPoint:point toView:sub];
             

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AEEA0F72BC96F1FB93AD34973088FCA23EDDA4F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AEEA0F72BC96F1FB93AD34973088FCA23EDDA4F7" : 0,
+    "B8A48AE474D3DC7999591F6B5EA10C300F61A4C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D73EC694-4FC4-401E-A06C-14EBA6E7F045",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AEEA0F72BC96F1FB93AD34973088FCA23EDDA4F7" : "%E6%B5%8B%E8%AF%95hitTest%E5%92%8CTouchBegin\/",
+    "B8A48AE474D3DC7999591F6B5EA10C300F61A4C9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "测试hitTest和TouchBegin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "测试hitTest和TouchBegin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ad0ma\/-hitTest-TouchBegin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AEEA0F72BC96F1FB93AD34973088FCA23EDDA4F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/adoma\/test_code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8A48AE474D3DC7999591F6B5EA10C300F61A4C9"
+    }
+  ]
+}
