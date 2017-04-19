@@ -10,11 +10,41 @@
 
 @implementation TestView
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction)];
+        
+        [self addGestureRecognizer:tap];
+    }
+    return self;
+}
 
+- (void)tapAction
+{
+    NSLog(@"%ld ->%s",self.tag,__func__);
+}
+
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"%ld ->%s",self.tag,__func__);
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"%ld ->%s",self.tag,__func__);
+}
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
      NSLog(@"%ld ->%s",self.tag,__func__);
+}
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"%ld ->%s",self.tag,__func__);
 }
 
 - (UIView *)__adHitTest:(CGPoint)point withEvent:(UIEvent *)event
